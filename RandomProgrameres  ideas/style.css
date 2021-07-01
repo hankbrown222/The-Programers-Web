@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: monospace;
+}
+body{
+    background-color: lightgray;
+}
+.centerText{
+    font-family: monospace;
+    font-size: 30px;
+    user-select: none;
+}
+.shadowing{
+    text-shadow: grey 2px 3px 3px;
+}
+#wantToSee{
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#fellow{
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#idProjects{
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.clickMeBtn{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border:2px solid black;
+    background:#3279a8;
+    font-size: 1.25rem;
+    font-weight: bold;
+    cursor:pointer;
+    transition: all 0.5s ease;
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+#working-btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border:2px solid black;
+    background:#3279a8;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor:pointer;
+    transition: all 0.5s ease;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+#working-btn:hover{
+    background-color: #1d3dbf
+}
+h6{
+    font-size: 10px;
+    position:absolute;
+    bottom: 5px;
+    right: 5px;
+}
